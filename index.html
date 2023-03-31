@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kyle Patterson</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/fullpage.css"
+      integrity="sha512-z04xx19bk6Q/FewwTQYDcyJsZKDglEvuszVGtMUOeaPwTl6p9oa914VzJRBDT/HLCYzG+GQ03xfOa9jCzcNLVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <div id="fullpage">
+      <div class="section active" id="section0">
+        <h4 class="home-text">Howdy, I'm</h4>
+        <h1 class="home-text">Kyle Patterson</h1>
+        <h1 class="home-text">I build beautiful websites!</h1>
+      </div>
+      <div class="section" id="section1">
+        <h1>Get to know me:</h1>
+      </div>
+      <div class="section" id="section2">
+        <div class="slide active"><h1>What I've Built</h1></div>
+        <div class="slide"><h1>Project 1</h1></div>
+        <div class="slide"><h1>Project 2</h1></div>
+        <div class="slide"><h1>Project 3</h1></div>
+      </div>
+
+      <div class="section" id="section3">
+        <h1>Contact Me!</h1>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/fullpage.min.js"
+      integrity="sha512-GS3CSFQ4aj+0fL2a0wV1ouvpdbTZ3eEUriXTpXt50dc0CkO1fgyWuLoPA5NWy1PAWmcaZNneM+OAThgCqPnX+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="text/javascript">
+      var myFullpage = new fullpage("#fullpage", {
+        licenseKey: "L8LX8-KE3D6-KF356-M9CJ9-DRRJM",
+        /* Navigation Options */
+        lockAnchors: false,
+        anchors: ["firstPage", "secondPage"],
+        keyboardScrolling: true,
+        navigation: true,
+        navigationPosition: "left",
+        navigationTooltips: ["Home", "About Me", "Experience", "Contact"],
+        showActiveTooltip: false,
+        slidesNavigation: true,
+        slidesNavPosition: "bottom",
+        scrollingSpeed: 1000,
+
+        /* Positioning Options*/
+        verticalCentered: true,
+      });
+    </script>
+  </body>
+</html>

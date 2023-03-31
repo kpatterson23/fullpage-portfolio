@@ -1,0 +1,45 @@
+#section0,
+#section1,
+#section2,
+#section3 {
+  background-size: cover;
+  color: white;
+}
+
+.home-text {
+  padding: 10px;
+  margin: 20px 20px;
+  font-size: 4rem;
+  filter: brightness(1) !important;
+}
+
+#section0 {
+  background-image: url("../img/home-bg.jpg");
+}
+
+#section1 {
+  background-image: url("../img/contact-bg.jpg");
+}
+
+#section2 {
+  background-image: url("../img/experience-bg.jpg");
+}
+
+#section3 {
+  background-image: url("../img/apple-tech.jpg");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+span {
+  background-color: white !important;
+}
