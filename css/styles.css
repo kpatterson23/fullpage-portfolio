@@ -13,6 +13,10 @@
   filter: brightness(1) !important;
 }
 
+.fp-arrow {
+  margin: 0 60px;
+}
+
 #section0 {
   background-image: url("../img/home-bg.jpg");
 }
