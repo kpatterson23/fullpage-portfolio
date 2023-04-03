@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kyle Patterson</title>
+    <!-- Required Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <!-- Required fullPage.js CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/fullpage.css"
@@ -12,18 +20,66 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- External CSS -->
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
   </head>
 
   <body>
     <div id="fullpage">
       <div class="section active" id="section0">
-        <h4 class="home-text">Howdy, I'm</h4>
-        <h1 class="home-text">Kyle Patterson</h1>
-        <h1 class="home-text">I build beautiful websites!</h1>
+        <h4 class="home-text animate__animated animate__flipInX">Howdy, I'm</h4>
+        <h1 class="home-text animate__animated animate__flipInX">
+          Kyle Patterson
+        </h1>
+        <h1 class="home-text animate__animated animate__flipInX">
+          I build beautiful websites!
+        </h1>
       </div>
       <div class="section" id="section1">
-        <h1>Get to know me:</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3>Who is Kyle?</h3>
+              <p>
+                I'm a front-end web developer from Philadelphia and I enjoy
+                building the most beautiful websites you've ever seen on the
+                internet. My interest in web development was sparked after I
+                took a trial course on development - I quickly realized this is
+                what I was meant to do. So, after college I joined Nucamp's
+                Front-end Web Development bootcamp and got to studying!
+              </p>
+              <p>
+                As of today, I've had the privilege of working in the automotive
+                industry, tech industry and food service industry. My focus
+                these days include monitoring, retrieving and ensuring the
+                transmission of data between ground stations and satellites for
+                an aerospace company.
+              </p>
+              <p>
+                Here are few of the technologies and skills I've been developing
+                lately:
+              </p>
+
+              <!-- Technology List -->
+              <ul>
+                <li>HTML 5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>NPM</li>
+                <li>React</li>
+                <li>Bootstrap 5</li>
+              </ul>
+            </div>
+            <div class="col">
+              <!-- Profile picture -->
+            </div>
+          </div>
+        </div>
       </div>
       <div class="section" id="section2">
         <div class="slide active"><h1>What I've Built</h1></div>
@@ -37,13 +93,20 @@
       </div>
     </div>
 
+    <!-- Required Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fullPage.js required Script -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.19/fullpage.min.js"
       integrity="sha512-GS3CSFQ4aj+0fL2a0wV1ouvpdbTZ3eEUriXTpXt50dc0CkO1fgyWuLoPA5NWy1PAWmcaZNneM+OAThgCqPnX+g=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-
+    <!-- fullPage.js Options -->
     <script type="text/javascript">
       var myFullpage = new fullpage("#fullpage", {
         licenseKey: "L8LX8-KE3D6-KF356-M9CJ9-DRRJM",

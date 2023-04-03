@@ -17,6 +17,11 @@
   margin: 0 60px;
 }
 
+.animate__flipInX {
+  animation: flipInX;
+  animation-duration: 2s;
+}
+
 #section0 {
   background-image: url("../img/home-bg.jpg");
 }
