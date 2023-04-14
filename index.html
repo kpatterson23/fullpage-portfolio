@@ -50,6 +50,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-md-6 px-3">
+              <!-- About me -->
               <h3>Who is Kyle?</h3>
               <p>
                 I'm a front-end web developer from Philadelphia and I love
@@ -80,24 +81,34 @@
                 <li>Bootstrap 5</li>
               </ul>
             </div>
-            <div class="col-xs-12 col-md-6 px-3 profile-pic-container">
+            <div
+              class="col-xs-12 col-md-6 p-5 d-none d-md-block profile-pic-container"
+            >
               <!-- Profile picture -->
               <img
                 class="img-fluid profile-pic"
                 alt="Profile Picture"
-                src="img/home-bg.jpg"
+                src="img/profile-pic.jpg"
               />
             </div>
           </div>
         </div>
       </div>
       <div class="section" id="section2">
-        <div class="slide active"><h1>What I've Built</h1></div>
-        <div class="slide"><h1>Project 1</h1></div>
-        <div class="slide"><h1>Project 2</h1></div>
-        <div class="slide"><h1>Project 3</h1></div>
+        <div class="slide active">
+          <!-- Projects Section -->
+          <h1>My Projects</h1>
+          <h3>
+            Use the navigation in the upper left hand corner, or your keyboard
+            to scroll to see examples of my projects.
+          </h3>
+        </div>
+        <div class="slide" id="pizza-palace"></div>
+        <div class="slide" id="hair-salon"></div>
+        <div class="slide" id="nucamp"></div>
       </div>
 
+      <!-- Contact Me Section -->
       <div class="section p-5" id="section3">
         <h1 class="contact">Get In Touch</h1>
         <p class="contact">
@@ -152,7 +163,7 @@
         keyboardScrolling: true,
         navigation: true,
         navigationPosition: "right",
-        navigationTooltips: ["Home", "About Me", "Experience", "Contact"],
+        navigationTooltips: ["Home", "About Me", "Projects", "Contact"],
         showActiveTooltip: false,
         slidesNavigation: true,
         slidesNavPosition: "top",
